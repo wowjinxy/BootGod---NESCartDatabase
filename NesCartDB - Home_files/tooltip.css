@@ -1,0 +1,41 @@
+#dhtmltooltip{
+position: absolute;
+left: -300px;
+width: 150px;
+border: 1px solid black;
+padding: 2px;
+font-family: Tahoma, Geneva, Arial;
+font-size: 12.5px;
+background-color: #FFFFE0;
+color: black;
+visibility: hidden;
+z-index: 100;
+}
+
+#dhtmlpointer{
+position:absolute;
+left: -300px;
+z-index: 101;
+visibility: hidden;
+}
+/*
+     FILE ARCHIVED ON 07:48:41 Nov 24, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:03:53 Sep 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 334.371
+  exclusion.robots.policy: 0.194
+  load_resource: 46.871
+  CDXLines.iter: 19.522 (3)
+  PetaboxLoader3.resolve: 75.011 (2)
+  RedisCDXSource: 1.712
+  exclusion.robots: 0.208
+  LoadShardBlock: 307.036 (3)
+  esindex: 0.015
+  PetaboxLoader3.datanode: 38.298 (4)
+*/

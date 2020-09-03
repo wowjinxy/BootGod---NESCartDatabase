@@ -1,0 +1,62 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function treeviewCollapseAll (sID){
+	for (var x = 0; x<document.getElementById('objTree'+sID).getElementsByTagName('UL').length;x++){
+		document.getElementById('objTree'+sID).getElementsByTagName('UL')[x].style.display='none';
+		document.getElementById('objTreeCollapser'+document.getElementById('objTree'+sID).getElementsByTagName('UL')[x].id.substring(9,document.getElementById('objTree'+sID).getElementsByTagName('UL')[x].id.length)).src = 'images/expander.png';
+	}
+}
+
+function treeviewExpandAll (sID){
+	for (var x = 0; x<document.getElementById('objTree'+sID).getElementsByTagName('UL').length;x++){
+		document.getElementById('objTree'+sID).getElementsByTagName('UL')[x].style.display='block';
+		document.getElementById('objTreeCollapser'+document.getElementById('objTree'+sID).getElementsByTagName('UL')[x].id.substring(9,document.getElementById('objTree'+sID).getElementsByTagName('UL')[x].id.length)).src = 'images/collapser.png';
+	}
+}
+function treeviewExpandCollapse (sID){
+	var objUL = document.getElementById('objTreeUL'+sID);
+	var objCollapser = document.getElementById('objTreeCollapser'+sID);
+
+	if (objUL.style.display == 'block'){
+		objUL.style.display='none';
+		objCollapser.src = 'images/expander.png';
+
+	}
+	else {
+		objUL.style.display='block';
+		objCollapser.src = 'images/collapser.png';
+	}
+}
+
+}
+/*
+     FILE ARCHIVED ON 20:48:02 Dec 08, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:18:23 Sep 03, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 0.975
+  esindex: 0.022
+  captures_list: 106.584
+  LoadShardBlock: 62.578 (3)
+  PetaboxLoader3.resolve: 65.969 (2)
+  exclusion.robots: 0.312
+  exclusion.robots.policy: 0.289
+  load_resource: 157.355
+  PetaboxLoader3.datanode: 54.155 (5)
+  CDXLines.iter: 35.602 (3)
+*/
