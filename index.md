@@ -21,7 +21,7 @@
 		<div class="header">
 			<noscript><td nowrap><img src="/web/20191208205001im_/http://bootgod.dyndns.org:7777/images/pending.gif">&nbsp;You need JavaScript enabled (and cookies) to properly use this site!</td></noscript><table class="header">
 				<tbody><tr>
-					<td width="100%">[<a href="./index.html">Home</a>] [<a href="./NesCartDB - Manual_ Index.html" title="Work in Progress">Guides</a>] [<a href="./NesCartDB - Plugins.html" title="Download CopyNES plugins">Plugins</a>] [<a href="./NesCartDB - XML Download.html" title="Download the most recent XML">XML</a>] [<a href="./NesCartDB - Missing Games.html" title="View games missing from database">Missing</a>] [<a href="./NesCartDB - PCB Viewer.html" title="View PCB info and stats">PCBs</a>] [<a href="./NesCartDB - Statistics.html" title="View various out-dated stats">Stats</a>] [<a href="./NesCartDB - Contributers.html">Contributors</a>]</td>
+					<td width="100%">[<a href="./index.md">Home</a>] [<a href="./NesCartDB - Manual_ Index.html" title="Work in Progress">Guides</a>] [<a href="./NesCartDB - Plugins.html" title="Download CopyNES plugins">Plugins</a>] [<a href="./NesCartDB - XML Download.html" title="Download the most recent XML">XML</a>] [<a href="./NesCartDB - Missing Games.html" title="View games missing from database">Missing</a>] [<a href="./NesCartDB - PCB Viewer.html" title="View PCB info and stats">PCBs</a>] [<a href="./NesCartDB - Statistics.html" title="View various out-dated stats">Stats</a>] [<a href="./NesCartDB - Contributers.html">Contributors</a>]</td>
 				</tr>
 			</tbody></table>
 		</div>
